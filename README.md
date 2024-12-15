@@ -30,6 +30,8 @@ Table of Contents:
 # Useful resources
 👷🏼‍♀️ Work in progress
 
+- MDN Web Docs. Aria. Avaiable at: <[https://developer.mozilla.org/pt-BR/docs/Web/Accessibility/ARIA](https://developer.mozilla.org/pt-BR/docs/Web/Accessibility/ARIA)>. Acessed on: 15-12-2024.
+- MDN Web Docs. Marker. Avaiable at: <[https://developer.mozilla.org/en-US/docs/Web/CSS/::marker](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker).Acessed on: 15-12-2024>
 
 # Author
 👷🏼‍♀️ Work in progress

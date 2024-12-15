@@ -1,1 +1,84 @@
 @charset "UTF-8";
+
+:root {
+    --co-w: hsl(0, 100%, 100%);
+    --co-dark-c12: hsl(0, 0%, 0%);
+    --co-dark-c11: hsl(0, 0%, 7%);
+    --co-dark-c10: hsl(0, 0%, 18%);
+
+    /*Fonts*/
+    --fs-16: 1rem;
+    --fs-18: 1.125rem;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+ul,
+p,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--co-dark-c12);
+}
+
+.header-container {
+    max-width: 75rem;
+    margin: 0 auto;    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.header-menu a {
+    padding: 1rem 0px;
+    display: inline-block;
+    font-size: var(--fs-18);
+    color: var(--co-w);
+    cursor: pointer;
+    
+}
+
+.header-menu a:hover,
+.header-menu a:focus {
+    background-color: var(--co-dark-c10);
+}
+
