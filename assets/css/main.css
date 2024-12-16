@@ -73,12 +73,48 @@ header{
     display: inline-block;
     font-size: var(--fs-18);
     color: var(--co-w);
-    cursor: pointer;
-    
+    cursor: pointer; 
+    position: relative;   
 }
+
+.header-menu a:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;   
+    background-color: var(--co-w);
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.header-menu a:hover:after {
+    width: 100%;
+  }
 
 .header-menu a:hover,
 .header-menu a:focus {
     background-color: var(--co-dark-c10);
+}
+
+
+
+
+
+@media (max-width: 280px) {
+    
+    .header-container {
+        flex-direction: column;        
+    }
+    .header-menu {
+        justify-content: center;     
+    }    
+}
+
+@media (max-width: 430px) {
+    .header-container {
+        justify-content: center;
+    }
+
 }
 
