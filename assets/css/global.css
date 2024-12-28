@@ -1,0 +1,88 @@
+:root {
+    
+    --co-c12: hsl(0, 0%, 0%);  /*000000*/
+    --co-c11: hsl(0, 0%, 7%);  /*111111*/
+    --co-c10: hsl(0, 0%, 18%); /*2e2e2e*/
+    --co-c9: hsl(0, 0%, 25%);  /*#404040*/
+    --co-c8: hsl(0, 0%, 35%);  /*#595959*/
+    --co-c7: hsl(0, 0%, 44%);  /*#717171*/
+    --co-c6: hsl(0, 0%, 61%);  /*#9C9C9C*/
+    --co-c5: hsl(0, 0%, 70%);  /*#B2B2B2*/
+    --co-c4: hsl(0, 0%, 80%);  /*#CCCCCC*/
+    --co-c3: hsl(0, 0%, 87%);  /*#DEDEDE*/
+    --co-c2: hsl(0, 0%, 93%);   /*#EDEDED*/
+    --co-c1: hsl(0, 0%, 97%);   /*#F7F7F7*/
+
+    --co-w: hsl(0, 100%, 100%); /*FFFFFF*/
+
+    --co-p5: hsl(40, 100%, 10%); /*332200*/
+    --co-p4: hsl(40, 100%, 20%); /*664400*/
+    --co-p3: hsl(40, 100%, 32%); /*A66F00*/
+    --co-p2: hsl(42, 90%, 37%); /*E4A30B*/
+    --co-p1: hsl(44, 100%, 50%); /*FFBB00*/
+    --co-p0: hsl(40, 91%, 50%); /*#f2a50c)*/
+
+    /*Fonts*/
+    --ff-poppins: "Poppins", serif;
+    --ff-roboto: "Roboto", serif;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fs-16: 1rem;
+    --fs-18: 1.125rem;
+    --fs-24: 1.5rem;
+    --fs-32: 2rem;
+    --fs-48: 3rem;
+    --fs-64: 4rem;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+ul,
+p,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.txt_title {
+    font-family: var(--ff-poppins);
+    font-weight: var(--fw-600);
+    font-size: var(--fs-64);
+    line-height: 1.125;
+}
+
+.txt_p {
+    font-family: var(--ff-roboto);
+    font-size: var(--fs-24);
+    font-weight: 400;
+    line-height: 1.5;
+}

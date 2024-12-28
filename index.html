@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Bike Craft - Origamid's HTML5 and CSS3 course final project solution by Gillian Oliveira.">
     <title>BikCraft Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
@@ -22,18 +25,28 @@
             </nav>
         </div>        
     </header>
-    <section class="hero">
-        <div class="hero__container">
-            <div class="hero__content">
-                <h1>Bicicletas feitas sob medida<span>.</span></h1>
-                <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-                <a class="btn" href="/src/bikes.html">Escolha a sua</a>
-            </div>
-            <div class="hero__img">
-                <img class="hero__img" src="./assets/images/intro/intro-black-bike.jpg" alt="Bicicleta preta">
-            </div> 
-            
-        </div> <!--hero-container-->
-    </section>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="txt_title">Bicicletas feitas sob medida<span>.</span></h1>
+                    <p class="txt_p">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+                    <a class="btn" href="/src/bikes.html">Escolha a sua</a>
+                </div>
+                <div class="hero__img">
+                    <img class="hero__img" src="./assets/images/intro/intro-black-bike.jpg" alt="Bicicleta preta">
+                </div>             
+            </div> <!--hero-container-->
+        </section>   
+        <article>
+            <div></div>
+            <h2>escolha a sua.</h2>
+            <div class="product">
+                <img src="./assets/images/blikes/magic-home.jpg" alt="Magic Home Bike">
+                <h3>Magic Might</h3>
+                <p class="price">R$ 2499</p>
+            </div><!--Product-->
+        </article>
+    </main>
 </body>
 </html>
