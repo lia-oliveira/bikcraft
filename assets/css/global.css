@@ -5,7 +5,7 @@
                 Global Styles 
 ---------------------------------------------*/
 :root {
-    
+    --co-c13: hsl(0, 3%, 13%);
     --co-c12: hsl(0, 0%, 0%);  /*000000*/
     --co-c11: hsl(0, 0%, 7%);  /*111111*/
     --co-c10: hsl(0, 0%, 18%); /*2e2e2e*/
@@ -36,7 +36,9 @@
     --fw-display-semi-bold: 600;
     --fs-root: 1rem; /*16px*/
     --fs-p: 1.125rem; /*18px*/
-    --fs-title-preset-1: 2rem; /*32px*/
+    --fs-title-p1: 2rem; /*32px*/
+    --fs-btn-p1: 1em; /*24px*/  
+    --fs-btn-p2: 1.6rem; /*24px*/
   
 }
 
