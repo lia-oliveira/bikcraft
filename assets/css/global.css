@@ -34,12 +34,15 @@
     --fw-base: 400;
     --fw-regular-medium: 500;
     --fw-display-semi-bold: 600;
+    --fs-small: 0.75rem; /*12px*/
     --fs-root: 1rem; /*16px*/
     --fs-p: 1.125rem; /*18px*/
+    --fs-nav: 1.125rem; /*18px*/
     --fs-title-p1: 2rem; /*32px*/
     --fs-btn-p1: 1em; /*24px*/  
     --fs-btn-p2: 1.6rem; /*24px*/
-  
+    
+    --round-corners: 0.25rem; /*4px*/
 }
 
 *,
@@ -66,6 +69,20 @@ blockquote {
     padding: 0;
 }
 
+h1 {
+    font-family: var(--ff-display);
+    font-weight: var(--fw-display-semi-bold);
+    font-size: 36px;
+    line-height: 1.125;
+}
+
+p {
+    font-family: var(--ff-regular);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-p);
+    line-height: 1.5;
+}
+
 ul li {
     list-style: none;
 }
@@ -81,24 +98,15 @@ img {
     display: block;
 }
 
-.txt_title {
-    font-family: var(--ff-poppins);
-    font-weight: var(--fw-600);
-    font-size: var(--fs-64);
-    line-height: 1.125;
-}
-
-.txt_p {
-    font-family: var(--ff-roboto);
-    font-size: var(--fs-24);
-    font-weight: 400;
-    line-height: 1.5;
-}
-
 body {
     font-family: var(--ff-roboto);
     font-weight: var(--fw-base);
     font-size: var(--fs-p);
     color: var(--co-c12);
 }
+
+.period {
+    color: var(--co-p1);
+}
+
 

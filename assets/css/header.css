@@ -20,18 +20,21 @@ header{
 
 nav ul{
     display: flex;
-    gap: 0.8rem;    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;    
 }
 
 nav ul li {
     padding: 0.5rem 1rem;
     background-color: var(--co-c13);
-    color: var(--co-w);
+    cursor: pointer;
+    border-radius: var(--round-corners);  
 }
 
 nav ul li a {
     font-family: var(--ff-regular);
     font-weight: var(--fw-base);
-    font-size: var(--co-c12);
-
+    font-size: var(--fs-nav);
+    color: var(--co-w);
 }
