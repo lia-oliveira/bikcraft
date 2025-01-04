@@ -7,7 +7,8 @@
     <title>BikCraft Store</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css2/style.css">
 </head>
 <body>
@@ -28,9 +29,10 @@
             <h1>Bicicletas feitas sob medida.</h1>
             <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
             <button>Escolha a sua</button>
-            <div class="img-container">
-                <img src="./assets/images/fotos/introducao.jpg" alt="Bike Picture">
-            </div>            
+            <picture class="img-container">
+                <source srcset="./assets/images/fotos/introducao.jpg" media="(min-width: 1440px)">
+                <img src="./assets/images/blikes/nimbus.jpg" alt="Bike Picture">
+            </picture>            
         </section>
         <article class="products">
             <h2>escolha a sua<span class="period">.</span></h2>
