@@ -1,3 +1,9 @@
+@charset "UTF-8";
+
+
+/*-------------------------------------------- 
+                Global Styles 
+---------------------------------------------*/
 :root {
     
     --co-c12: hsl(0, 0%, 0%);  /*000000*/
@@ -23,17 +29,15 @@
     --co-p0: hsl(40, 91%, 50%); /*#f2a50c)*/
 
     /*Fonts*/
-    --ff-poppins: "Poppins", serif;
-    --ff-roboto: "Roboto", serif;
-    --fw-400: 400;
-    --fw-500: 500;
-    --fw-600: 600;
-    --fs-16: 1rem;
-    --fs-18: 1.125rem;
-    --fs-24: 1.5rem;
-    --fs-32: 2rem;
-    --fs-48: 3rem;
-    --fs-64: 4rem;
+    --ff-display: "Poppins", serif;
+    --ff-regular: "Roboto", serif;
+    --fw-base: 400;
+    --fw-regular-medium: 500;
+    --fw-display-semi-bold: 600;
+    --fs-root: 1rem; /*16px*/
+    --fs-p: 1.125rem; /*18px*/
+    --fs-title-preset-1: 2rem; /*32px*/
+  
 }
 
 *,
@@ -54,7 +58,8 @@ h3,
 ul,
 p,
 li,
-a {
+a, 
+blockquote {
     margin: 0;
     padding: 0;
 }
@@ -87,3 +92,11 @@ img {
     font-weight: 400;
     line-height: 1.5;
 }
+
+body {
+    font-family: var(--ff-roboto);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-p);
+    color: var(--co-c12);
+}
+
