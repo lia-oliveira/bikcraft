@@ -6,7 +6,7 @@
 }
 
 .hero h1 {
-    color: var(--co-w);
+    color: var(--co-c1);
     padding-bottom: 0.625rem; /*10px*/   
 }
 
@@ -15,3 +15,4 @@
 .hero p {
     color:var(--co-c6);
 }
+

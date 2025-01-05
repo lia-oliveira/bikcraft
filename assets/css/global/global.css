@@ -34,15 +34,18 @@
     --fw-base: 400;
     --fw-regular-medium: 500;
     --fw-display-semi-bold: 600;
-    --fs-small: 0.75rem; /*12px*/
-    --fs-root: 1rem; /*16px*/
-    --fs-p: 1.125rem; /*18px*/
+    
+    --fs-btn-p1: 1rem; /*16px*/ 
+    --fs-btn-p2: 1.6rem; /*24px*/
+    --fs-link: 1.5rem; /*24px*/    
     --fs-nav: 0.875rem; /*14px*/
+    --fs-p: 1.125rem; /*18px*/
+    --fs-root: 1rem; /*16px*/
+    --fs-small: 0.75rem; /*12px*/
     --fs-title-p1: 2rem; /*32px*/
     --fs-title-p2: 2rem; /*32px*/
     --fs-title-p3: 1.5rem; /*24px*/
-    --fs-btn-p1: 1em; /*24px*/  
-    --fs-btn-p2: 1.6rem; /*24px*/    
+
     --round-corners: 0.25rem; /*4px*/
 }
 
@@ -94,6 +97,7 @@ p {
     font-weight: var(--fw-base);
     font-size: var(--fs-p);
     line-height: 1.5;
+    color: var(--co-c6);
 }
 
 ul li {
