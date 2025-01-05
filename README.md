@@ -24,7 +24,32 @@ Table of Contents:
 👷🏼‍♀️ Work in progress
 
 # What I learned
-👷🏼‍♀️ Work in progress
+1 - Para que o pseudo-elemento seja exibido é preciso declarar a propriedade display.
+```css
+.products ul h3::before {
+    ...
+    display: inline-block;     
+}
+```
+2 - A propriedade transition pode ser aplicada somente a largura quando necessário:
+```css
+.products ul h3::before {
+    ...
+    transition: width 0.2s;
+}
+
+.products ul a:hover h3::before {
+    width: 1.5rem;
+}
+```
+3 - É possível criar um scroll horizontal em um container:
+```css
+.products ul {
+overflow-y: hidden;
+overflow-x: scroll;
+}  
+```
+
 
 
 # Useful resources

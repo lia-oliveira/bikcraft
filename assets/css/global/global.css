@@ -37,11 +37,12 @@
     --fs-small: 0.75rem; /*12px*/
     --fs-root: 1rem; /*16px*/
     --fs-p: 1.125rem; /*18px*/
-    --fs-nav: 1.125rem; /*18px*/
+    --fs-nav: 0.875rem; /*14px*/
     --fs-title-p1: 2rem; /*32px*/
+    --fs-title-p2: 2rem; /*32px*/
+    --fs-title-p3: 1.5rem; /*24px*/
     --fs-btn-p1: 1em; /*24px*/  
-    --fs-btn-p2: 1.6rem; /*24px*/
-    
+    --fs-btn-p2: 1.6rem; /*24px*/    
     --round-corners: 0.25rem; /*4px*/
 }
 
@@ -72,8 +73,20 @@ blockquote {
 h1 {
     font-family: var(--ff-display);
     font-weight: var(--fw-display-semi-bold);
-    font-size: 36px;
+    font-size: var(--fs-title-p1);
     line-height: 1.125;
+}
+
+h2 {
+    font-family: var(--ff-display);
+    font-weight: var(--fw-display-semi-bold);
+    font-size: var(--fs-title-p2);
+}
+
+h3 {
+    font-family: var(--ff-display);
+    font-weight: var(--fw-display-semi-bold);
+    font-size: var(--fs-title-p3);
 }
 
 p {
@@ -99,7 +112,7 @@ img {
 }
 
 body {
-    font-family: var(--ff-roboto);
+    font-family: var(--ff-regular);
     font-weight: var(--fw-base);
     font-size: var(--fs-p);
     color: var(--co-c12);

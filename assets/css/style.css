@@ -5,5 +5,6 @@
 @import url("./utilitary/components.css");
 @import url("./home/header.css");
 @import url("./home/hero.css");
-@import url("./media-queries/");
+@import url("./home/products.css");
+@import url("./media-queries/media-queries.css");
 

@@ -1,13 +1,17 @@
 .hero {
-    padding: 1.125rem 1.6875rem;
-    background-color: var(--co-c12);
+    padding: 2.5rem 1.6875rem 0.125rem 1.6875rem;
+    background-color: var(--co-c11);
     color: var(--co-w);
-    /*box-shadow: inset 0 -7.5rem var(--co-w); */ /*-120px*/
+    box-shadow: inset 0 -7.5rem var(--co-w); /*-120px*/
 }
 
 .hero h1 {
     color: var(--co-w);
-    padding-bottom: 10px;    
+    padding-bottom: 0.625rem; /*10px*/   
 }
 
 /*btn -->  components.css*/
+
+.hero p {
+    color:var(--co-c6);
+}

@@ -1,0 +1,51 @@
+.products {
+    padding: 1.125rem 1rem 1.125rem 1rem;
+}
+
+.products h2 {
+    padding-bottom: 1.5rem;
+}
+
+.products h3 {
+    margin-bottom: 0.625rem; /*10px*/
+}
+
+.products p{
+    margin-bottom: 1.25rem; /*20px*/
+}
+
+.products ul {
+    max-width: 90rem; /*1400px*/
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem; /*32px*/
+    overflow-y: hidden;
+    overflow-x: scroll;    
+}
+
+.products ul li {
+    flex: 1;
+    min-width: 17.5rem; /*280px*/
+    height: auto;
+}
+
+.products ul li img{
+    width: 100%;
+    margin-bottom: 1.125rem;
+    object-fit: cover;
+    border-radius: var(--round-corners);
+}
+
+.products ul h3::before {
+    content: "";
+    width: 0.75rem; /*12px*/
+    height: 0.5rem; /*8px*/
+    display: inline-block;
+    background-color: var(--co-p1);
+    margin-right: 0.5rem; /*8px*/
+    transition: width 0.2s;
+}
+
+.products ul a:hover h3::before {
+    width: 1.5rem; /*24px*/
+}
