@@ -31,9 +31,11 @@
     /*Fonts*/
     --ff-display: "Poppins", serif;
     --ff-regular: "Roboto", serif;
+    --ff-blockquote: "Merriweather", serif;
     --fw-base: 400;
     --fw-regular-medium: 500;
     --fw-display-semi-bold: 600;
+    --fw-black-blockquote: 900;
     
     --fs-btn-p1: 1rem; /*16px*/ 
     --fs-btn-p2: 1.6rem; /*24px*/
@@ -78,18 +80,21 @@ h1 {
     font-weight: var(--fw-display-semi-bold);
     font-size: var(--fs-title-p1);
     line-height: 1.125;
+    font-style: normal;
 }
 
 h2 {
     font-family: var(--ff-display);
     font-weight: var(--fw-display-semi-bold);
     font-size: var(--fs-title-p2);
+    font-style: normal;
 }
 
 h3 {
     font-family: var(--ff-display);
     font-weight: var(--fw-display-semi-bold);
     font-size: var(--fs-title-p3);
+    font-style: normal;
 }
 
 p {
@@ -98,6 +103,13 @@ p {
     font-size: var(--fs-p);
     line-height: 1.5;
     color: var(--co-c6);
+}
+
+blockquote {
+    font-family: var(--ff-blockquote);
+    font-weight: var(--fw-black-blockquote);
+    font-style: italic;
+    color: var(--co-p5);
 }
 
 ul li {
@@ -119,8 +131,11 @@ body {
     font-family: var(--ff-regular);
     font-weight: var(--fw-base);
     font-size: var(--fs-p);
+    font-style: normal;
     color: var(--co-c12);
 }
+
+
 
 .period {
     color: var(--co-p1);
