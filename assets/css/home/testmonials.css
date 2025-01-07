@@ -1,11 +1,12 @@
 .testimonials {
     width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .testimonials__img{
     width: 100%;
-    height: 200px;
-    
+    height: 200px;    
 }
 
 .testimonials__img img {
@@ -19,17 +20,19 @@
     background-color: var(--co-p1);
     display: grid;
     grid-template-columns: 1fr;
-    align-self: flex-end;
+    align-content: flex-start;
     justify-content: center;
+    
 }
 
 blockquote {
-    max-width: 723px;
     padding: 3.5rem 1.6875rem 1.4375rem 1.6875rem;
     font-size: 1.5rem;
     line-height: 1.25;    
     position: relative;
     margin: 0 auto;
+    text-align: center;
+    max-width: 40ch;
 }
 
 blockquote::before,

@@ -5,6 +5,7 @@
                 Global Styles 
 ---------------------------------------------*/
 :root {
+    --co-c14: hsl(0, 0%, 0%);
     --co-c13: hsl(0, 3%, 13%);
     --co-c12: hsl(0, 0%, 0%);  /*000000*/
     --co-c11: hsl(0, 0%, 7%);  /*111111*/
@@ -42,6 +43,7 @@
     --fs-link: 1.5rem; /*24px*/    
     --fs-nav: 0.875rem; /*14px*/
     --fs-p: 1.125rem; /*18px*/
+    --fs-price: 1.6rem; /*24px*/
     --fs-root: 1rem; /*16px*/
     --fs-small: 0.75rem; /*12px*/
     --fs-title-p1: 2rem; /*32px*/
@@ -111,6 +113,7 @@ blockquote {
     font-style: italic;
     color: var(--co-p5);
 }
+
 
 ul li {
     list-style: none;

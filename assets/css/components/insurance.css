@@ -1,0 +1,65 @@
+.insurance {
+    padding: 3.4375rem 1.6875rem 3.125rem 1.6875rem;
+    background-color: var(--co-c11);
+    display: grid;
+    gap: 1.875rem;
+}
+
+.insurance h2 {
+    color: var(--co-w);    
+}
+
+.insurance__item {    
+    background-color: var(--co-c14);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 2rem 2rem 2rem 3.75rem;
+    max-width: 560px;
+}
+
+.insurance__item h3 {
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    color: var(--co-w);
+    grid: 1;
+}
+
+.insurance__item .price {
+    grid-column: 2;
+    text-align: right;
+}
+
+.insurance__item .price p:first-child {
+    font-weight: var(--fw-display-semi-bold);
+    font-size: var(--fs-price);
+    color: var(--co-w);
+}
+
+.insurance__item ul {
+    grid-column: 1/-1;
+}
+
+.insurance__item ul li {
+    color: var(--co-c2);
+    font-size: 1.125rem;
+    position: relative;   
+}
+
+.insurance__item ul li + li {
+    margin-top:20px; 
+}
+
+.insurance__item ul li::before {
+    content: "";
+    display: inline-block;
+    width: 0.8125rem;
+    height: 0.5625rem;
+    background-image: url("../../images/icones/lista.svg");
+    position: absolute;
+    left: -1.3125rem;
+}
+
+.insurance__item a {
+    grid-column: 1 / -1;
+}
+

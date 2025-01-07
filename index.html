@@ -29,7 +29,7 @@
         <section class="hero">
             <h1>Bicicletas feitas sob medida<span class="period">.</span></h1>
             <p>Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-            <a href="./src/bikes.html" class="btn-lg-link">Escolha a sua</a>
+            <a href="./src/bikes.html" class="btn">Escolha a sua</a>
             <picture class="img-container">
                 <source srcset="./assets/images/fotos/introducao.jpg" media="(min-width: 1440px)">
                 <img src="./assets/images/blikes/nimbus.jpg" alt="Bike Picture">
@@ -80,7 +80,7 @@
                 </div> <!--grid-2col__item-->               
             </div> <!--grid-2col -->
         </section>
-        <section class="partners">
+        <section class="partners" aria-label="Partners">
             <h2>nossos parceiros<span class="period">.</span></h2>
             <ul>
                 <li><img src="./assets/images/parceiros/caravan.svg" alt=""></li>
@@ -99,42 +99,45 @@
             </div>
             <div class="testimonials__content">
                 <blockquote>
-                    Pedalar sempre foi a minha paixão. O que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo a todos que amo.
+                    Pedalar sempre foi minha paixão. O que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo a todos que amo.
                 </blockquote>
                 <span>Ana Júlia</span>
             </div>            
         </section>
-        <section class="insurance">
-            <h2>seguros.</h2>
-            <div class="insurance__item">
-                <p><strong>Prata</strong></p>
+    </main>
+    <article class="insurance" aria-label="Insurance">
+        <h2>seguros<span class="period">.</span></h2>
+        <div class="insurance__item">
+            <h3>Prata</h3>
+            <div class="price">
                 <p>R$ 199</p>
                 <p>mensal</p>
-
-                <ul>
-                    <li>Duas trocas por ano</li>
-                    <li>Assistência técnica</li>
-                    <li>Suporte 08h às 18h</li>
-                    <li>Cobertura estadual</li>
-                </ul>
-                <button>Inscreva-se</button>
-            </div><!--insurance__item-->
-            <div class="insurance__item">
-                <p><strong>Ouro</strong></p>
-                <p>R$299</p>
+            </div>                
+            <ul>
+                <li>Duas trocas de freio por ano</li>
+                <li>Assistência técnica</li>
+                <li>Suporte 08h às 18h</li>
+                <li>Cobertura estadual</li>
+            </ul>
+            <a href="" class="btn btn-secondary">Contrate</a>
+        </div><!--insurance__item-->
+        <div class="insurance__item">
+            <h3>Ouro</strong></h3>
+            <div class="price">
+                <p>R$ 299</p>
                 <p>mensal</p>
-                <ul>
-                    <li>Cinco trocas por ano</li>
-                    <li>Assistência especial</li>
-                    <li>Suporte 24h</li>
-                    <li>Cobertura nacional</li>
-                    <li>Desconto em parceiros</li>
-                    <li>Acesso ao Clube Bikcraft</li>
-                </ul>
-                <button>Inscreva-se</button>
-            </div> <!--insurance__item-->
-        </section>
-    </main>
+            </div>                
+            <ul>
+                <li>Cinco trocas de freio por ano</li>
+                <li>Assistência especial</li>
+                <li>Suporte 24h</li>
+                <li>Cobertura nacional</li>
+                <li>Parcerias de descontos</li>
+                <li>Clube Bikcraft</li>
+            </ul>
+            <a class="btn" href="">Contrate</a>
+        </div> <!--insurance__item-->
+    </article>    
     <footer>
         <h6>Contato</h6>
         <p>+55 21 9999-9999</p>
@@ -151,7 +154,7 @@
             <li><a href="">Contato</a></li>
             <li><a href="">Termos e Condições</a></li>
         </ul>
-        <p>Bikcraft © Alguns direitos reservados</p>
+        <p>Bikcraft ©Alguns direitos reservados</p>
     </footer>    
 </body>
 </html>

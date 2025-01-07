@@ -2,12 +2,13 @@
 
 
 @import url("./global/global.css");
-@import url("./utilitary/components.css");
+@import url("./components/buttons.css");
 @import url("./home/header.css");
 @import url("./home/hero.css");
 @import url("./home/products.css");
 @import url("./home/tecnology.css");
 @import url("./home/partners.css");
 @import url("./home/testmonials.css");
+@import url("./components/insurance.css");
 @import url("./media-queries/media-queries.css");
 
