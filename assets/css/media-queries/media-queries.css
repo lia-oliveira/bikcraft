@@ -57,6 +57,32 @@
     }   
 }
 
+@media(min-width: 800px) {
+   
+    .footer__content {
+        grid-template-columns: 3fr 5fr 4fr;
+        max-width: 1440px;
+    }
+
+    .footer__logo {
+        display: block;
+    }
+
+    .footer__social {
+        grid-column: 2;
+    }
+
+    .footer__info {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    footer > p {
+        grid-column: 1 /-1;
+        text-align: left;
+    }
+}
+
 @media (max-width: 800px){
     .hero {
         background-color: var(--co-c11);
