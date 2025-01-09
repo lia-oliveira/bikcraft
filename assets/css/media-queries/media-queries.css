@@ -1,7 +1,23 @@
 @media (max-width: 280px) {
     .header-menu {
         justify-content: center;     
-    }   
+    } 
+    
+    .partners ul {
+        grid-template-columns: 1fr;
+    }
+
+    .partners ul li:nth-child(even) {
+        border-left: none;    
+    }
+
+    .partners ul li:nth-child(2) {
+        border-top: 2px solid var(--co-c4);
+    }
+
+    .partners img {
+        width: 70%;
+    }
 }
 
 @media(min-width:500px){    
@@ -38,7 +54,11 @@
 @media (min-width:600px) { 
     .tech-type{
         grid-template-columns: 1fr 1fr;
-    }   
+    } 
+    
+    .partners {
+        justify-content: unset;      
+    }
    
     .insurance {
         grid-template-columns: 1fr 1fr;
@@ -95,8 +115,23 @@
     }
 }
 
-@media(max-width: 700px) {
-    
+
+
+@media (min-width: 768px) {
+    .partners ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .partners ul li:nth-child(3),
+    .partners ul li:nth-child(4) {
+        border-top: none;
+    }
+
+    .partners ul li:nth-child(3),
+    .partners ul li:nth-child(7) {    
+        border-left: 2px solid var(--co-c4);    
+    }
+
 }
 
 @media(min-width: 800px) {  
@@ -131,8 +166,7 @@
     }
 
     .tech {
-        box-shadow: inset 0 7.5rem var(--co-w),  inset 0 -7.5rem var(--co-w);
-        
+        box-shadow: inset 0 7.5rem var(--co-w),  inset 0 -7.5rem var(--co-w);        
     }
 
     .tech-wrapper {
@@ -168,13 +202,42 @@
         align-self: center;
     }
 
-    .tech__content {
-        h2 {
-            font-size: 54px;
-        }
+    .tech__content h2 {         
+            font-size: 54px;        
+    }
+
+    .partners {
+        max-width: 100%;
+        justify-content: center;
+    }
+    .testimonials__img {
+        max-height: 580px;
+    }
+
+    .testimonials__content {
+        justify-items: end;
+         
+    }
+
+    .testimonials blockquote {
+        text-align: right;
+        max-width: 30ch;
+        margin: unset;
+        margin-right: 3rem;  
+    }
+
+    .testimonials__content span {
+        margin-right: 5rem;
+    }
+
+    .insurance-wrapper {
+        grid-template-columns: 1fr 1fr;
     }
     
-              
+    .insurance h2 {
+        grid-column: 1/-1;
+    }
+
     .footer__content {
         grid-template-columns: 3fr 5fr 4fr;
         max-width: 1440px;

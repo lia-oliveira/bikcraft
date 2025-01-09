@@ -146,10 +146,18 @@ body {
     color: var(--co-c12);
 }
 
-
-
 .period {
     color: var(--co-p1);
 }
+
+.wrapper {
+    max-width: 75rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+ }
 
 

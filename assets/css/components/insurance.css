@@ -1,20 +1,29 @@
 .insurance {
     padding: 3.4375rem 1.6875rem 3.125rem 1.6875rem;
     background-color: var(--co-c11);
+}
+
+.insurance-wrapper {
+    width: max-content;
+    max-width: 75rem;
     display: grid;
-    gap: 1.875rem;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .insurance h2 {
-    color: var(--co-w);    
+    color: var(--co-w);
+    margin-bottom: 2rem;    
 }
 
-.insurance__item {    
-    background-color: var(--co-c14);
+.insurance__item { 
     display: grid;
     grid-template-columns: 1fr auto;
-    padding: 2rem 2rem 2rem 3.75rem;
-    max-width: 560px;
+    padding: 2rem 2em 2rem 3.75rem;
+    background-color: var(--co-c14);   
 }
 
 .insurance__item h3 {
