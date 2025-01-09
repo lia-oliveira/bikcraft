@@ -1,13 +1,24 @@
 .hero {
-    padding: 2.5rem 1.6875rem 0.125rem 1.6875rem;
     background-color: var(--co-c11);
-    color: var(--co-w);
     box-shadow: inset 0 -7.5rem var(--co-w); /*-120px*/
+}
+
+.hero__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.hero__content {
+    align-content: end;
+    padding: 50px 20px;      
 }
 
 .hero h1 {
     color: var(--co-c1);
-    padding-bottom: 0.625rem; /*10px*/   
+    padding-bottom: 0.625rem; /*10px*/ 
+    font-size: clamp(2rem, 5vw, 3rem); 
 }
 
 /*btn -->  components.css*/
@@ -16,3 +27,29 @@
     color:var(--co-c6);
 }
 
+.hero .img-container {
+    width: 84vw;
+    margin: 0 auto;
+    padding-top: -100px;
+}
+
+
+@media (min-width: 800px) {
+    .hero__wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 0rem 3rem;
+    }
+
+    .hero__content {
+        grid-column: 1;
+        padding-left: 80px;
+        
+    } 
+    
+    .hero picture {
+        margin-right: 3rem;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+}
