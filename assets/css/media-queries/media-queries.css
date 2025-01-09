@@ -3,6 +3,7 @@
         justify-content: center;     
     }   
 }
+
 @media(min-width:500px){    
     header {
         align-items: end;        
@@ -14,8 +15,7 @@
 
     header nav ul li a {
         font-size: clamp(14px, 5vw, 18px);
-    }
-    
+    }    
 }
 
 @media (max-width: 500px) {
@@ -56,8 +56,7 @@
 
     blockquote {
         font-size: 2rem;
-    }
-    
+    }    
 }
 
 
@@ -109,24 +108,24 @@
 
     .hero__content {
         grid-column: 1;
-        padding-left: 80px;        
+        padding-left: 80px; 
+        padding-bottom: 150px;       
     } 
 
     .hero__content h1{
         grid-column: 1/-1;
     }
 
-    .img-container {
+    .img-container {       
         max-width: 580px;
-        grid-column: 2/3;
+        grid-column: 2;
         grid-row: 1;
     }
 
     .img-container img {
-        width: 100px;
+        height: 100%;
+        object-fit: cover;
     }
-
-
               
     .footer__content {
         grid-template-columns: 3fr 5fr 4fr;
