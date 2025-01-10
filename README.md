@@ -51,7 +51,6 @@ overflow-x: scroll;
 ```
 
 
-
 # Useful resources
 👷🏼‍♀️ Work in progress
 
@@ -59,6 +58,8 @@ overflow-x: scroll;
 - MDN Web Docs. Marker. Avaiable at: <[https://developer.mozilla.org/en-US/docs/Web/CSS/::marker](https://developer.mozilla.org/en-US/docs/Web/CSS/::marker).Acessed on: 15-12-2024>
 - https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility
 - CSS-position Property Examples: [https://css-tricks.com/almanac/properties/o/object-position/](https://css-tricks.com/almanac/properties/o/object-position/)
+- CSS Grid: alinhando elementos (com exemplos) - [https://triangulo.dev/posts/css-grid-alinhando-elementos-na-pratica/](https://triangulo.dev/posts/css-grid-alinhando-elementos-na-pratica/)
+
 
 # Author
 👷🏼‍♀️ Work in progress

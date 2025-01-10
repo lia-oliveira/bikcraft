@@ -3,7 +3,7 @@
 
 @import url("./global/global.css");
 @import url("./components/buttons.css");
-@import url("./home/header.css");
+@import url("./global/header.css");
 @import url("./home/hero.css");
 @import url("./home/products.css");
 @import url("./home/tecnology.css");
@@ -12,4 +12,3 @@
 @import url("./components/insurance.css");
 @import url("./global/footer.css");
 @import url("./media-queries/media-queries.css");
-

@@ -127,16 +127,19 @@ ul li {
     list-style: none;
 }
 
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 
 img {
     max-width: 100%;
     height: auto;
     display: block;
 }
+
 
 body {
     font-family: var(--ff-regular);
@@ -146,18 +149,20 @@ body {
     color: var(--co-c12);
 }
 
+
 .period {
     color: var(--co-p1);
 }
 
-.wrapper {
-    max-width: 75rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
- }
+.section-title {
+    color: black;
+}
 
+.subtitle {
+    text-transform: uppercase;
+}
+
+.wrapper {
+    padding: 3.75rem 2rem;
+}
 

@@ -1,0 +1,14 @@
+
+@import url("../global/global.css");
+@import url("../global/header.css");
+@import url("../global/footer.css");
+
+
+
+.section-title {
+    color: black;
+}
+
+.p-dark > p{
+    color: var(--co-c13);
+}
