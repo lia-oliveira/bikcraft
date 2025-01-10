@@ -163,6 +163,8 @@ body {
 }
 
 .wrapper {
-    padding: 3.75rem 2rem;
+    padding: 1rem 2rem;
+    max-width: 50rem;
+    margin: 0 auto;
 }
 

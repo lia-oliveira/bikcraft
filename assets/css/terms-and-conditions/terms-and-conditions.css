@@ -2,13 +2,29 @@
 @import url("../global/global.css");
 @import url("../global/header.css");
 @import url("../global/footer.css");
+@import url("../media-queries/media-queries.css");
 
-
-
-.section-title {
-    color: black;
-}
 
 .p-dark > p{
     color: var(--co-c13);
+}
+
+.section-title {
+    color: black;
+    margin: 1rem 0;
+    line-height: 1.1;
+}
+
+.logo-container {
+    padding-left: unset;
+}
+
+.logo-container a {
+    display: inline-block;
+}
+
+.logo-container a img {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
