@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikcrafit - Bicicletas</title>
+    <title>Bicicletas | Bikcraft</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo-container">
+            <a href="../index.html"><img src="../assets/images/bikcraft.svg" width="90" height="29" alt="Bikcraft logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./src/bikes.html">Bicicletas</a></li>
+                <li><a href="./src/insurance.html">Seguros</a></li>
+                <li><a href="./src/contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="bikes">
+        <div class="title-container">
+            <p class="subtitle">Escolha a melhor para você</p>
+            <h1>Nossas Bicicletas<span class="period">.</span></h1>        
+        </div>
+
+        <section class="card">
+            <div class="card__img">
+                <img src="../assets/images/bikes/nimbus.jpg" alt="Nebula Bike">
+                <p class="price-tag">R$ 4999</p>
+            </div>
+            <div class="card__content">
+                <h2>Nimbus Stark</h2>
+                <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+                <ul>
+                    <li>
+                        <img src="../assets/images/icons/eletrica.svg" alt="">
+                        Motor Elétrico
+                    </li>
+                    <li>
+                        <img src="../assets/images/icons/carbono.svg" alt="">
+                        Fibra de Carbono</li>
+                    <li>
+                        <img src="../assets/images/icons/velocidade.svg" alt="">
+                        40 km/h
+                    </li>
+                    <li>
+                        <img src="../assets/images/icons/rastreador.svg" alt="">
+                        Rastreador
+                    </li>
+                </ul>
+                <a href="" class="btn">Mais sobre</a>
+            </div>
+            
+        </section>
+        
+             
+    </main>
+
+    <footer>
+        <div class="footer__content">
+            <div class="footer__logo">
+                <a href=""><img src="../assets/images/bikcraft.svg" alt="bikcraft logo"></a>
+            </div>
+            <div class="footer__contact">
+                <h4>Contato</h4>
+                <p>+55 21 9999-9999</p>
+                <p>contato@bikcraft.com</p>
+                <p>Rua Ali Perto, 42 - Botafogo</p>
+                <p>Rio de Janeiro - RJ</p>
+            </div> <!--contact-->
+            <div class="footer__social">
+                <a href=""><img src="../assets/images/social/instagram.svg" alt="instagram icon"></a>
+                <a href=""><img src="../assets/images/social/facebook.svg" alt="facebook icon"></a>
+                <a href=""><img src="../assets/images/social/youtube.svg" alt="youtube icon"></a>
+            </div><!--social-->
+            <div class="footer__info">
+                <h4>Informações</h4>
+                <ul>
+                    <li><a href="">Bicicletas</a></li>
+                    <li><a href="">Seguros</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="">Termos e Condições</a></li>
+                </ul>
+            </div> 
+        </div><!--footer__content-->
+              
+        <p>Bikcraft &copy;Alguns direitos reservados</p>
+    </footer>    
 </body>
 </html>

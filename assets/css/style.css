@@ -11,4 +11,11 @@
 @import url("./home/testmonials.css");
 @import url("./components/insurance.css");
 @import url("./global/footer.css");
+
+
+
+@import url("../css/terms-and-conditions/terms-and-conditions.css");
+@import url("../css/bikes/bikes.css");
+
 @import url("./media-queries/media-queries.css");
+@import url("./media-queries/mq-bikes.css");
