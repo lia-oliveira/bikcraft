@@ -1,6 +1,6 @@
 #bikes .title-container {
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 3.75rem 2rem 2rem 2rem;
     background-color: var(--co-c11);
 }
 
@@ -15,8 +15,10 @@
 }
 
 .card__content {
+    padding: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-content: start;
 }
 
 .card__content h2 {
@@ -58,56 +60,28 @@
 }
 
 .card__img {
-    position: relative;
+    display: grid;
+}
+
+.card__img img {
+    grid-area: 1/1;
 }
 
 .price-tag {
+    grid-area: 1/1;
+    place-self: start end;
+    margin-top: 1.5rem;
     color: var(--co-w);
     background-color: var(--co-c14);
     display: inline-block;
     padding: 0.1rem 0.8rem;
     border-radius: 0.3125rem 0 0 0.3125rem;
-    position: absolute;
-    top: 20px;
-    right: 0px;
 }
 
 
-
-
-
-
-/*
-.card__content ul li::before{
-    content: "";
-    width: 24px;
-    height: 32px;
-    display: block;    
-    position: absolute;
-    top: 0px; 
-    left: 0px; 
-    margin-left: 0px; 
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+.card:nth-child(odd){
+    background-color: var(--co-c11);
+    color: var(--co-w);
 }
-
-.card__content ul li:nth-child(1)::before {
-    background: url('../../images/icons/eletrica.svg');
-    
-}
-.card__content ul li:nth-child(3)::before {
-    background: url('../../images/icons/velocidade.svg');
-}
-
-.card__content ul li:nth-child(2)::before {
-    background: url('../../images/icons/carbono.svg');
-}
-
-.card__content ul li:nth-child(4)::before {
-    background: url('../../images/icons/rastreador.svg');
-}
-*/
-
 
 
