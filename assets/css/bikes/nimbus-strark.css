@@ -1,0 +1,60 @@
+#stark .bike-content {
+    display: grid;
+    grid-template-columns: 1fr; 
+    justify-content: start;
+    align-items: center; 
+}
+
+.description{
+    padding: 0 1.5rem 2rem 1.5rem;
+ }
+
+.title-container,
+.bike-content {
+    background-color: var(--co-c11);
+}
+
+.title-container {
+    grid: 1 / -1;
+    padding: 4.375rem 1.25rem 2.375rem 1.25rem;
+}
+
+.title-container h1 {
+    color: var(--co-w);
+    font-size: 2rem;
+}
+
+.bike-img-container {
+    grid-row: 4;
+}
+
+.price-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 1.5rem 0 1.5rem; 
+    margin-bottom: 3rem;   
+}
+
+.btn-buy .btn {
+    max-width: 200px;
+    justify-content: center;
+}
+
+.extra-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: end;
+}
+
+.extra-info p{    
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+    font-size: 12px;
+    background-color: black; 
+    border-radius: 5px;
+    padding: 0.1rem 0.8rem;
+    max-width: max-content;   
+}
