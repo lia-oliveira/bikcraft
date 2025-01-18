@@ -60,7 +60,6 @@
     max-width: max-content;   
 }
 
-
 .small-title{
     text-transform: uppercase;
     font-size: 0.75rem;
@@ -69,7 +68,6 @@
     color: var(--co-w);
     padding-left: 1.5rem;
 }
-
 
 .info-itens {
     margin: 0 1.5rem 2rem 1.5rem;
@@ -190,3 +188,5 @@ td {
     display: grid;
     gap: 1rem;
 }
+
+
