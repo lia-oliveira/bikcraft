@@ -1,9 +1,15 @@
+#stark {
+    background-color: var(--co-c11);
+}
+
 .bike-hero {
+    max-width: 75rem;
+    margin: 0 auto;
     background-color: var(--co-c11);
     padding: 2.5rem 1.25rem;
     display: grid;
     grid-template-columns: 1fr; 
-    gap: 1rem;  
+    gap: 2rem;  
 }
 
 .bike-hero__title h1 {
@@ -14,14 +20,35 @@
 
 .bike-hero__pictures {
     grid-column: 1;
-    grid-row: 5;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     gap: 1rem;
+}
+
+.bike-hero__pictures img {
+    cursor: pointer;
+    flex: 1;
+    min-width: 200px;
+}
+
+.bike-hero__pictures img:first-child {
+    cursor: initial;
+    min-width: 100%;
+} 
+
+.bike-hero__content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    grid-row: 2;
 }
 
 .bike-hero__buy {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .bike-hero__buy a:first-of-type {
@@ -33,11 +60,72 @@
     flex-direction: column;    
 }
 
-.buy__shipping p{
+.buy__shipping p {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     align-items: center;
     font-size: 0.875rem;
 }
+
+.bike-hero__info-wrapper {
+    background-color: var(--co-c14);
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.bike-hero__info-item > img {
+    width: 1.5rem; 
+}
+
+.bike-hero__info > p,
+.bike-hero__info-item p:first-of-type {
+    color: var(--co-w);
+}
+
+
+.bike-hero__info-item p:last-of-type {
+    font-size: 0.875rem;
+}
+
+
+.bike-hero__tech-table-wrapper {
+    background-color: var(--co-c14);
+    color: var(--co-c6);
+    padding: 2rem;
+}
+
+.bike-hero__tech-table-wrapper table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;  
+}
+
+th, td {
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    border-bottom: 0.5px solid rgb(17, 17, 17);
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+th {
+    color: #cccccc;
+    flex: 1;
+    font-weight: normal;    
+}
+
+td {
+    flex: 1;
+    text-align: right;  
+}
+
+.bike-hero__tech-table-wrapper > p {
+    color: var(--co-co6);
+}
+
 

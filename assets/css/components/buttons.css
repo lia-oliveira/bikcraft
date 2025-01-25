@@ -33,3 +33,8 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.btn--large {
+    max-width: 10.875rem;
+    justify-content: center;
+}

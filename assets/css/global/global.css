@@ -166,3 +166,8 @@ body {
     max-width: 50rem;
     margin: 0 auto;
 }
+
+.small-title {
+    color: var(--co-w);
+    font-size: 0.875rem;
+}
