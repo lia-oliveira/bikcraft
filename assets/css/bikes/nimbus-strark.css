@@ -128,4 +128,54 @@ td {
     color: var(--co-co6);
 }
 
+/*Section: other-bikes*/
+.other-bikes {
+    background-color: var(--co-w);
+    padding: 3.75rem 0.875rem;
+}
+
+.other-bikes h2 {
+    margin-bottom: 2.5rem;
+}
+
+.other-bikes ul {
+    display: flex;
+    gap: 2rem;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.other-bikes__list li {
+    flex: 1;
+    min-width: 17.5rem; /*280px*/
+    height: auto;
+}
+
+.other-bikes__list li img {
+    object-fit: cover;
+    border-radius: var(--round-corners);
+}
+
+.other-bikes__list li p:first-of-type {   
+    font-size: var( --fs-title-p3);
+    color: var(--co-c14);
+    font-family: var(--ff-display);
+    font-weight:var(--fw-display-semi-bold);    
+}
+
+.other-bikes__list li p:first-of-type::before {
+    content: "";
+    width: 0.75rem; /*12px*/
+    height: 0.5rem; /*8px*/
+    display: inline-block;
+    background-color: var(--co-p1);
+    margin-right: 0.5rem; /*8px*/
+    transition: width 0.2s;
+}
+
+.other-bikes__list li a img {
+    width: 100%;
+}
+
+
 

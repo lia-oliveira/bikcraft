@@ -45,8 +45,9 @@ Table of Contents:
 3 - É possível criar um scroll horizontal em um container:
 ```css
 .products ul {
-overflow-y: hidden;
-overflow-x: scroll;
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: auto; /*a barra será crianda quando a largura mínima for excedida.
 }  
 ```
 

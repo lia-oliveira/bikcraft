@@ -28,7 +28,6 @@
     .bike-hero__pictures img:first-of-type {
         grid-column: 1 /-1;
     }
-
 }
 
 @media (min-width: 800px){
