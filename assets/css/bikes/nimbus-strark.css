@@ -1,0 +1,43 @@
+.bike-hero {
+    background-color: var(--co-c11);
+    padding: 2.5rem 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 1rem;  
+}
+
+.bike-hero__title h1 {
+    grid-column: 1/-1;
+    color: var(--co-w);
+    font-size: 2rem;
+}
+
+.bike-hero__pictures {
+    grid-column: 1;
+    grid-row: 5;
+    display: grid;
+    gap: 1rem;
+}
+
+.bike-hero__buy {
+    display: flex;
+    flex-direction: column;
+}
+
+.bike-hero__buy a:first-of-type {
+    flex: 1;    
+}
+
+.buy__shipping {
+    display: flex;
+    flex-direction: column;    
+}
+
+.buy__shipping p{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
