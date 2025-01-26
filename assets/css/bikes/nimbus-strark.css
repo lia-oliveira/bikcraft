@@ -15,7 +15,7 @@
 .bike-hero__title h1 {
     grid-column: 1/-1;
     color: var(--co-w);
-    font-size: 2rem;
+    font-size: clamp(2rem, 3rem, 3.5rem);
 }
 
 .bike-hero__pictures {
@@ -134,8 +134,14 @@ td {
     padding: 3.75rem 0.875rem;
 }
 
+.other-bikes__container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
 .other-bikes h2 {
     margin-bottom: 2.5rem;
+    font-size: clamp(2rem, 3rem, 3.5rem);
 }
 
 .other-bikes ul {
