@@ -44,8 +44,7 @@
     .bike-hero__content {
         grid-column: 2;
         grid-row: 2;
-    }    
-
+    }  
    
     .bike-hero__description {
         grid-column: 2;
@@ -55,6 +54,32 @@
     .bike-hero__buy {
         grid-template-columns: 1fr 1fr;
         grid-row: 3;
+    } 
+    
+
+    /* INSURANCE*/
+    .insurance-bike {
+        box-shadow: inset 0 7.5rem var(--co-w),  inset 0 -7.5rem var(--co-c14);             
+    }
+
+    .insurance-bike__wrapper {
+        max-width: 75rem;      
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 2rem; 
+    }   
+
+    .insurance-bike__img-container {        
+        grid-column: 1;
+        grid-row: 1;        
+    }
+
+    .insurance-bike__img-container {
+        height: 100%;
+    }
+
+    .insurance-bike__content {
+        grid-column: 2;
+        padding: clamp(7rem, 5vh, 10rem) 1rem;
     }
 
 }

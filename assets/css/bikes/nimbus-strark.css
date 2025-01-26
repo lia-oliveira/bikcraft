@@ -177,5 +177,42 @@ td {
     width: 100%;
 }
 
+/* Insurance */
+.insurance-bike {
+    padding: 2rem;   
+}
+
+.insurance-bike__wrapper {
+    margin:0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 2rem;
+}
+
+.insurance-bike h2 {
+    color: var(--co-w);
+    line-height: 1.2;
+    font-size: clamp(2rem, 3rem, 3.5rem);
+} 
+
+.insurance-bike__img-container{
+    grid-row: 2;   
+}
+
+.insurance-bike__img-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;    
+}
+
+.insurance-bike__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+
 
 

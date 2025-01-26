@@ -170,3 +170,15 @@ body {
     color: var(--co-w);
     font-size: 0.875rem;
 }
+
+.insurance {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.insurance__content {
+    grid-row: 1;
+}
+.insurance__content a {
+    margin: 1rem 0;
+}
