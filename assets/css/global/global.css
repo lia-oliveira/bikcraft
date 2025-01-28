@@ -126,6 +126,7 @@ ul li {
     list-style: none;
 }
 
+
 a {
     text-decoration: none;
     color: inherit;
@@ -191,14 +192,27 @@ body {
     background-color: var(--co-c14);
 }
 
+.bkg-gray {
+    background-color: var(--co-c11);
+}
+
+.bkg-light-gray {
+    background-color: var(--co-c1);
+}
+
+.bkg-white {
+    background-color: var(--co-w);
+}
+
 .container {
     display: grid;
+    gap: 1.5rem;
     grid-template-columns: 1fr; 
-    gap: 2rem;
     background-color: var(--co-c11);
     padding: 2.5rem 1.25rem;
     max-width: 75rem;
     margin: 0 auto;
+      
 }
 
 .title-black {

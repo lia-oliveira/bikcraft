@@ -1,0 +1,148 @@
+.contact-form .container {
+    background-color: none;
+    background: linear-gradient(var(--co-c11) 25.25rem, var(--co-c1) 0);
+    
+}
+.contact__bkg .container {
+    gap:0;   
+}
+
+.contact-form {
+    background: linear-gradient(var(--co-c11) 25.25rem, var(--co-c1) 0);
+}
+
+.contact__title p {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.contact-form .container {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.contact-form__info {
+    padding: 3.75rem;
+    border-radius: .25rem .25rem 0 0;    
+}
+
+.contact-form__info > p {
+    color: var(--co-w);
+    margin-bottom: 2rem;
+}
+
+.contact-form__info li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form__info li img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.contact-social {
+    display: flex;
+    gap: 2rem;
+}
+
+.contact-social a {
+    
+}
+.contact-form__form {
+    border-radius: 0 0 .25rem .25rem;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.25rem;
+    padding: 4rem 2rem;
+    border:none;
+}
+
+.contact-form__form label {
+    font-family: var(--ff-display);
+    font-weight: var( --fw-regular-medium);
+    font-size: var(--fs-root);
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    font-family: var(--ff-regular);
+    line-height: 1.5;
+    font-weight: var(--fw-regular-medium);
+    background-color: var(--co-c1);
+    border: 1px solid var(--co-c2);
+    padding: 0.75rem;
+    width: 100%;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    outline: none;
+    border-color: var(--co-p1);
+    background-color: var(--co-w);
+    box-shadow: 0 0 0 2px #fea;
+} 
+
+/* store addresses */
+.store > .container {
+    background-color: none;
+    background-color: var(--co-c1);
+    gap:1rem;
+    
+}
+
+.store h2 {
+    grid-column: 1 / -1;
+}
+
+.store__card {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    border-radius: .25rem;   
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.store__card img {
+    border-radius: .25rem .25rem 0 0;
+}
+
+.store-card__content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+}
+
+.store-card__content > p {
+    color: var(--co-c11);
+}
+
+.card-content__adress,
+.card-content__contact {
+    border-left: 1px solid var(--co-c3);
+    padding: 0.75rem;
+}
+.card-content__adress p,
+.card-content__contact a {
+    color: var(--co-c8);
+}
+
+.card-content__time {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.card-content__time img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+

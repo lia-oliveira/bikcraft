@@ -12,7 +12,7 @@
 @import url("./components/insurance.css");
 @import url("./global/footer.css");
 @import url("../css/bikes/nimbus-strark.css");
-
+@import url("../css/contact/contact.css");
 
 @import url("../css/terms-and-conditions/terms-and-conditions.css");
 @import url("../css/bikes/bikes.css");
@@ -20,5 +20,5 @@
 @import url("./media-queries/media-queries.css");
 @import url("./media-queries/mq-bikes.css");
 @import url("./media-queries/mq-nimbus-stark.css");
-
+@import url("../css/media-queries/mq-contact.css");
 

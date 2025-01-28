@@ -3,9 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikcreaft - Contato</title>
+    <title>Bikcraft - Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
-    
-</body>
+    <header>
+      <div class="logo-container">
+        <a href="../index.html"><img src="../assets/images/bikcraft.svg" width="90" height="29" alt="Bikcraft logo"/></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./src/bikes.html">Bicicletas</a></li>
+          <li><a href="./src/insurance.html">Seguros</a></li>
+          <li><a href="./src/contact.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contact" class="contact">
+        <div class="contact__bkg bkg-gray">
+            <div class="contact__title container">
+                <p>Respostas em até 24h</p>
+                <h1 class="title-black" >nosso contato<span class="period">.</span></h1>
+            </div>
+        </div> <!--bkg-dark-->      
+        <div class="contact-form">
+            <div class="contact-form__container container">
+                <div class="contact-form__info bkg-dark">
+                    <p>Loja Online</p>
+                    <ul>
+                        <li>
+                            <img src="./../assets/images/icons/local.svg" alt=""><span>
+                            <p>Rua Ali Perto, 35</p>
+                            <p>Rio de Janeiro - RJ</p>
+                            <p>Brasil</p></span>
+                        </li>
+                        <li>
+                            <img src="./../assets/images/icons/email.svg" alt=""><span>                     <p>vendas@bikcraft.com</p>
+                            <p>assistencia@bikcraft.com</p></span>
+                        </li>
+                        <li>
+                            <img src="./../assets/images/icons/telefone.svg" alt="">
+                            <span>
+                            <p>+55 21 9999-9999</p></span>
+                        </li>
+                    </ul>
+                    <div class="contact-social">
+                        <a href="https://www.instagram.com/"><img src="./../assets/images/social/instagram-p.svg" alt=""></a>
+                        <a href="https://www.facebook.com/"><img src="./../assets/images/social/facebook-p.svg" alt=""></a>
+                        <a href="https://www.youtube.com/"><img src="./../assets/images/social/youtube-p.svg" alt=""></a>
+                    </div> <!--contact-social-->
+                </div><!--contact-info-->
+                <div class="contact-form__form bkg-white">
+                    <form method="post" action=''>
+                        <fieldset>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Seu nome">
+
+                            <label for="phone-number">Telefone</label>
+                            <input type="text" id="phone-number" placeholder="(21) 9999-9999">
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="contato@email.com">
+                       
+                            <label for="mesage">Messagem</label>
+                            <textarea id="mesage" rows="6" cols="30" placeholder="O que você precisa"></textarea>
+                        </fieldset>
+                        <button class="btn-button">Enviar mensagem</button>                       
+                    </form>
+                </div>   
+            </div><!--contact-form__container-->
+        </div><!--contact-form--> 
+        <div class="store bkg-light-gray" aria-label="store addresses">
+            <div class="container">
+                <h2>Onde estamos<span class="period">.</span></h2>
+                <article class="store__card bkg-white">
+                    <img src="./../assets/images/lojas/rj.jpg" alt="">
+                    <div class="store-card__content ">
+                        
+                        <h3>Rio de Janeiro</h3>
+                        <div class="card-content__adress">
+                            <p>Rua Ali Perto, 25</p>
+                            <p>Rio de Janeiro - RJ</p>
+                        </div>                       
+                        <div class="card-content__contact">
+                            <p><a href="mailto:contanto@bikcraft.com">contato@bikcraft.com</a></p>
+                            <a href="tel:+552199999999"> + 55 21 99999999 </a>
+                        </div>           
+                        <p class="card-content__time"><img src="./../assets/images/icons/horario.svg" alt="">08h às 18h de segunda a domingo.</p>
+                    </div>                    
+                  </article><!--store__card-->
+                  <article class="store__card bkg-white">
+                    <img src="./../assets/images/lojas/sp.jpg" alt="">
+                    <div class="store-card__content ">
+                        
+                        <h3>São Paulo</h3>
+                        <div class="card-content__adress">
+                            <p>Rua Santa Efigênia, 25</p>
+                            <p>São Paulo - SP</p>
+                        </div>                       
+                        <div class="card-content__contact">
+                            <p><a href="mailto:contanto@bikcraft.com">contato@bikcraft.com</a></p>
+                            <a href="tel:+552199999999"> + 55 11 99999999 </a>
+                        </div>           
+                        <p class="card-content__time"><img src="./../assets/images/icons/horario.svg" alt="">08h às 18h de segunda a domingo.</p>
+                    </div>                    
+                  </article><!--store__card-->
+                
+            </div><!--container-->
+          </div>  
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+      <div class="footer__content">
+        <div class="footer__logo">
+          <a href=""
+            ><img src="../assets/images/bikcraft.svg" alt="bikcraft logo"
+          /></a>
+        </div>
+        <div class="footer__contact">
+          <h4>Contato</h4>
+          <p>+55 21 9999-9999</p>
+          <p>contato@bikcraft.com</p>
+          <p>Rua Ali Perto, 42 - Botafogo</p>
+          <p>Rio de Janeiro - RJ</p>
+        </div>
+        <!--contact-->
+        <div class="footer__social">
+          <a href=""
+            ><img
+              src="../assets/images/social/instagram.svg"
+              alt="instagram icon"
+          /></a>
+          <a href=""
+            ><img
+              src="../assets/images/social/facebook.svg"
+              alt="facebook icon"
+          /></a>
+          <a href=""
+            ><img src="../assets/images/social/youtube.svg" alt="youtube icon"
+          /></a>
+        </div>
+        <!--social-->
+        <div class="footer__info">
+          <h4>Informações</h4>
+          <ul>
+            <li><a href="">Bicicletas</a></li>
+            <li><a href="">Seguros</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Termos e Condições</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--footer__content-->
+
+      <p>Bikcraft &copy;Alguns direitos reservados</p>
+    </footer>
+  </body>
 </html>
