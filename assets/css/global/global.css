@@ -172,18 +172,6 @@ body {
     font-size: 0.875rem;
 }
 
-.insurance {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.insurance__content {
-    grid-row: 1;
-}
-.insurance__content a {
-    margin: 1rem 0;
-}
-
 .container {
     max-width: 75rem;
 }
@@ -211,8 +199,7 @@ body {
     background-color: var(--co-c11);
     padding: 2.5rem 1.25rem;
     max-width: 75rem;
-    margin: 0 auto;
-      
+    margin: 0 auto;      
 }
 
 .title-black {

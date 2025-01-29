@@ -60,14 +60,6 @@
         justify-content: unset;      
     }
    
-    .insurance {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .insurance h2 {
-        grid-column: 1/-1;    
-    }
-
     .testimonials {
         grid-template-columns: 1fr 1fr;
     }

@@ -1,4 +1,4 @@
-.insurance {
+/*.insurance {
     padding: 3.4375rem 1.6875rem 3.125rem 1.6875rem;
     background-color: var(--co-c11);
 }
@@ -19,17 +19,20 @@
     margin-bottom: 2rem;    
 }
 
-.insurance__item { 
+.insurance__item {
+    max-width: 35rem;
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr;
     padding: 2rem 2em 2rem 3.75rem;
-    background-color: var(--co-c14);   
+    background-color: var(--co-c14);  
+    gap: 1.5rem;
+    
 }
 
 .insurance__item h3 {
     margin-bottom: 2.5rem;
     text-transform: uppercase;
-    color: var(--co-w);
+    color: var(--co-c8);
     grid: 1;
 }
 
@@ -70,5 +73,92 @@
 
 .insurance__item a {
     grid-column: 1 / -1;
+}*/
+
+/*------------------------------------*/
+
+
+
+.insurance__title {
+    gap: 0;
+    grid-column: 1 / -1;
 }
 
+.insurance__title h1 {
+    color: var(--co-w);
+}
+
+.insurance__title p {
+    text-transform: uppercase;
+}
+
+.insurance-item {
+    max-width: 580px;
+    padding: 2rem 2rem 2rem 5rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+}
+
+.insurance-item h3 {
+    color: var(--co-c8);
+    font-size: var(--fs-title-p3);
+    font-weight: var(--fw-display-semi-bold);
+    text-transform: uppercase;
+}
+
+
+.insurance-item__price p:first-child,
+.insurance-item ul li {
+    color: var(--co-w);
+}
+
+.insurance-item__price p:first-child {
+    font-size: var(--fs-title-p3);
+    font-weight: var(--fw-display-semi-bold);
+}
+
+.insurance-item__price {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    flex-wrap: nowrap;
+}
+
+.insurance-item__list {
+    grid-column: 1/-1;
+    grid-row: 2;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.insurance-item__list li {
+    position:relative;
+    align-items: center;
+}
+
+.insurance-item__list li::before {
+    content: "";
+    display: inline-block;
+    width: 0.8125rem;
+    height: 0.4625rem;
+    background-image: url("../../images/icons/lista.svg");
+    position: absolute;
+    left: -1.3125rem;
+    top: 0.3125rem;
+}
+
+.insurance__item a {
+    grid-row: 3;
+    grid-column: 1;
+    margin: unset;
+}
+
+@media (min-width: 700px) {
+    .insurance__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
