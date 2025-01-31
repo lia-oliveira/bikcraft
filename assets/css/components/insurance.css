@@ -155,7 +155,15 @@
     margin: unset;
 }
 
-@media (min-width: 700px) {
+/*Advantages*/
+
+.benefits h2, h3{
+    color: var(--co-w);
+}
+
+
+
+@media (min-width: 720px) {
     .insurance__grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
