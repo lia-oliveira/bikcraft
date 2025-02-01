@@ -72,7 +72,8 @@ ul,
 p,
 li,
 a, 
-blockquote {
+blockquote,
+dd {
     margin: 0;
     padding: 0;
 }
